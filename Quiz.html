@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tags for search engines -->
+    <meta name="author" content="Priyanka Singh">
+    <meta name="description" content="Quiz For Programmers">
+    <meta name="keywords" content="Quiz For Programmers">
+  <title>Quiz For Programmers</title>
+  <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+   <div class="header">
+      
+       <h1>Quiz Time</h1>
+	 
+	   <div class="container">
+	   <button class="btn" id= "Start-btn" >START</button>
+       <div id="quiz" class="quiz-container" >
+		<h2 id="question"></h2>
+		 <div id="answer-buttons" class ="answerbtn"></div>
+		 <button class="button" id="next-btn">NEXT</button>
+		 <h3 class="score" id="score"></h3>
+		 </div>
+        <button class="rules btn" data-open-modal>??</button>
+        <dialog data-modal>
+        <div>
+        <h2>Quiz Guidelines:</h2>
+            You will receive 1 marks for each correct answer.<br>
+            your maximum score a total of 11 <br>
+         
+        <h4>
+         Press the CLOSE button on this box and then the START button to start the quiz.
+        </h4>
+        </div>
+            <!-- Button to close modal -->
+         <button class="btn" data-close-modal>Close</button>
+        </dialog>
+		
+        </div>
+	
+	</div>  
+		<script src="assets/jss/script.js"></script>
+  </body>
+     
+</html>
